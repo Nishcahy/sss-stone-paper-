@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.count{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+    background-color: bisque;
+    font-size: 20px;
+}
+img{
+    border-radius: 10rem;
+}
+img:hover{
+    opacity: 0.5;
+}
+
+.box{
+    padding: 29px;
+    border-radius: 10rem;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(122, 122, 218);
+
+
+}
+
+#msg{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: aquamarine;
+    padding: 20px;
+}
